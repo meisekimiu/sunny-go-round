@@ -27,3 +27,15 @@
 	animation-timing-function: ease-in-out;
 	animation-fill-mode: forwards;
 }
+.sunny-carousel {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	height: 500px;
+}
+.sunny-carousel .buttons {
+	z-index: 50;
+	position: absolute;
+	bottom: 1em;
+	left: 1em;
+}

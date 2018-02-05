@@ -81,7 +81,7 @@ class SunnyGoRound extends Component {
 		return (
 			<div className="sunny-carousel">
 				{this.getSlides()}<br />
-				<a href="javascript:;" onClick={() => {this.moveSlide(-1)}}>Previous slide</a> - <a href="javascript:;" onClick={() => {this.moveSlide(1)}}>Next slide</a>
+				<div className="buttons"><a href="javascript:;" onClick={() => {this.moveSlide(-1)}}>Previous slide</a> - <a href="javascript:;" onClick={() => {this.moveSlide(1)}}>Next slide</a></div>
 			</div>
 		);
 	}
