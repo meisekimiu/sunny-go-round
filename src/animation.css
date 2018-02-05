@@ -32,6 +32,7 @@
 	margin: 0;
 	padding: 0;
 	height: 500px;
+	overflow-x: hidden;
 }
 .sunny-carousel .buttons {
 	z-index: 50;
