@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import TestSlideA from './slides/TestSlide1';
 import TestSlideB from './slides/TestSlide2';
+import TestSlideC from './slides/TestSlide3';
 
 import {Modulo} from './Helpers.js';
 
@@ -16,7 +17,8 @@ class SunnyGoRound extends Component {
 		};
 		this.slides = [
 			<TestSlideA />,
-			<TestSlideB />
+			<TestSlideB />,
+			<TestSlideC />
 		];
 	}
 	getSlides() {

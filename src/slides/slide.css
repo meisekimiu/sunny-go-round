@@ -6,6 +6,12 @@
 	z-index: -500;
 	font-family: "Myriad Pro Condensed","PT Sans Narrow","Arial Narrow",sans-serif;
 }
+.slide .gridcontainer {
+	background: url('http://www.taiyoucon.com/wp-content/themes/salient/img/textures/grid.png');
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
 .slide .header-text {
 	color: #fff;
 	font-size: 2em;

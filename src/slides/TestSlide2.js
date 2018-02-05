@@ -11,10 +11,11 @@ class TestSlideB extends Component {
 					position: "absolute",
 					bottom: "5%",
 					right: "5%",
+					marginLeft: "5%",
 					textAlign: "right",
-					backgroundColor: "#0006",
+					backgroundColor: "#0009",
 					padding: "2em",
-					borderRadius: "5px"
+					borderRadius: "1em"
 				}}>
 					<div className="header-text">We got cosplay!</div>
 					<div className="body-text">I think text should go here but I don't know what to write.</div>
