@@ -33,10 +33,32 @@
 	padding: 0;
 	height: 500px;
 	overflow-x: hidden;
+	overflow-y: hidden;
+	position: relative;
 }
 .sunny-carousel .buttons {
 	z-index: 50;
 	position: absolute;
 	bottom: 1em;
 	left: 1em;
+}
+.sunny-carousel .next, .sunny-carousel .prev {
+	cursor: pointer;
+	position: absolute;
+	padding: 0.5em;
+	top: 0;
+	line-height: 500px;
+	height: 100%;
+	color: #e22e27;
+	transition: background-color 0.5s, color 0.5s;
+}
+.sunny-carousel .next:hover, .sunny-carousel .prev:hover {
+	background-color: #0009;
+	color: #EA6762;
+}
+.sunny-carousel .next {
+	right: 0;
+}
+.sunny-carousel .prev {
+	left: 0;
 }

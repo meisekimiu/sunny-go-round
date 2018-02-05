@@ -3,6 +3,8 @@ import TestSlideA from './slides/TestSlide1';
 import TestSlideB from './slides/TestSlide2';
 import TestSlideC from './slides/TestSlide3';
 
+import FontAwesome from 'react-fontawesome';
+
 import {Modulo} from './Helpers.js';
 
 import './animation.css';
@@ -83,7 +85,8 @@ class SunnyGoRound extends Component {
 		return (
 			<div className="sunny-carousel">
 				{this.getSlides()}<br />
-				<div className="buttons"><a href="javascript:;" onClick={() => {this.moveSlide(-1)}}>Previous slide</a> - <a href="javascript:;" onClick={() => {this.moveSlide(1)}}>Next slide</a></div>
+				<div className="prev" onClick={() => {this.moveSlide(-1)}}><FontAwesome name="chevron-left" size="3x" /></div>
+				<div className="next" onClick={() => {this.moveSlide(1)}}><FontAwesome name="chevron-right" size="3x"/></div>
 			</div>
 		);
 	}
