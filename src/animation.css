@@ -31,7 +31,6 @@
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	height: 500px;
 	overflow-x: hidden;
 	overflow-y: hidden;
 	position: relative;
@@ -47,7 +46,6 @@
 	position: absolute;
 	padding: 0.5em;
 	top: 0;
-	line-height: 500px;
 	height: 100%;
 	color: #e22e27;
 	transition: background-color 0.5s, color 0.5s;
@@ -61,4 +59,28 @@
 }
 .sunny-carousel .prev {
 	left: 0;
+}
+
+@media screen and (max-width: 360px) {
+	.sunny-carousel {
+		display: none;
+	}
+}
+@media screen and (min-width: 361px) {
+	.sunny-carousel {
+		height: 300px;
+		font-size: 0.8em;
+	}
+	.sunny-carousel .next, .sunny-carousel .prev {
+		line-height: 300px;
+	}
+}
+@media screen and (min-width: 769px) {
+	.sunny-carousel {
+		height: 500px;
+		font-size: 1em;
+	}
+	.sunny-carousel .next, .sunny-carousel .prev {
+		line-height: 500px;
+	}
 }
