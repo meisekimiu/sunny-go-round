@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import TestSlideA from './slides/TestSlide1';
-import TestSlideB from './slides/TestSlide2';
-import TestSlideC from './slides/TestSlide3';
+import SunnySlides from './Slides';
 
 import FontAwesome from 'react-fontawesome';
 
@@ -17,11 +15,7 @@ class SunnyGoRound extends Component {
 			transitionSlide: 0,
 			delta: 0
 		};
-		this.slides = [
-			<TestSlideA />,
-			<TestSlideB />,
-			<TestSlideC />
-		];
+		this.slides = SunnySlides;
 	}
 	getSlides() {
 		if(this.state.currentSlide === this.state.transitionSlide) {
