@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import SunnyUtils from './SunnyUtils';
 import './slide.css';
 class TestSlideC extends Component {
 	render() {
@@ -19,7 +20,7 @@ class TestSlideC extends Component {
 						<div className="header-text">Come Spend Your Money Here</div>
 						<div className="body-text">I think in general it's good UX to have text here? idk, it looks weird without some kind of text to explain what the picture is.</div>
 						<br />
-						<a href="/exhibitors/vendor-registration" className="button-link"><div className="button" style={{backgroundColor: "#e55737"}}>Vendor Sign Up</div></a> <a href="/exhibitors/artist-alley-registration" className="button-link"><div className="button" style={{backgroundColor: "#e55737"}}>Artist Alley Sign Up</div></a>
+						<a href={SunnyUtils.getPath('/exhibitors/vendor-registration')} className="button-link"><div className="button" style={{backgroundColor: "#e55737"}}>Vendor Sign Up</div></a> <a href={SunnyUtils.getPath('/exhibitors/artist-alley-registration')} className="button-link"><div className="button" style={{backgroundColor: "#e55737"}}>Artist Alley Sign Up</div></a>
 					</div>
 				</div>
 			</div>

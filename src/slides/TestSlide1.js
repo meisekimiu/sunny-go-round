@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import SunnyUtils from './SunnyUtils';
 import './slide.css';
 class TestSlideA extends Component {
 	render() {
@@ -14,7 +15,7 @@ class TestSlideA extends Component {
 					<div className="header-text">Arizona's Ultimate Anime Experience</div>
 					<div className="body-text">Over 400+ Hours of Things to Do</div>
 					<br />
-					<a href="/information/how-do-i-attend" className="button-link darken"><div className="button" style={{backgroundColor: "#2AC4EA"}}>How do I attend?</div></a> <a href="/information/main-events" className="button-link darken"><div className="button" style={{backgroundColor: "#2AC4EA"}}>Main Events</div></a> 
+					<a href={SunnyUtils.getPath('/information/how-do-i-attend')} className="button-link darken"><div className="button" style={{backgroundColor: "#2AC4EA"}}>How do I attend?</div></a> <a href={SunnyUtils.getPath('/information/main-events')} className="button-link darken"><div className="button" style={{backgroundColor: "#2AC4EA"}}>Main Events</div></a>
 				</div>
 			</div>
 		);
