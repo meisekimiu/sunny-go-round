@@ -17,8 +17,8 @@ class TestSlideC extends Component {
 						padding: "2em",
 						borderRadius: "1em"
 					}}>
-						<div className="header-text">Come Spend Your Money Here</div>
-						<div className="body-text">I think in general it's good UX to have text here? idk, it looks weird without some kind of text to explain what the picture is.</div>
+						<div className="header-text">Taiyou Con Vendor Hall</div>
+						<div className="body-text"> </div>
 						<br />
 						<a href={SunnyUtils.getPath('/exhibitors/vendor-registration')} className="button-link"><div className="button" style={{backgroundColor: "#e55737"}}>Vendor Sign Up</div></a> <a href={SunnyUtils.getPath('/exhibitors/artist-alley-registration')} className="button-link"><div className="button" style={{backgroundColor: "#e55737"}}>Artist Alley Sign Up</div></a>
 					</div>

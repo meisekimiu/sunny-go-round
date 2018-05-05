@@ -18,8 +18,8 @@ class TestSlideB extends Component {
 					padding: "2em",
 					borderRadius: "1em"
 				}}>
-					<div className="header-text">We got cosplay!</div>
-					<div className="body-text">I think text should go here but I don't know what to write.</div>
+					<div className="header-text">Cosplay At Taiyou Con</div>
+					<div className="body-text"> </div>
 					<br />
 					<a href={SunnyUtils.getPath('/programming/masquerade-sign-up')} className="button-link darken"><div className="button" style={{backgroundColor: "#333"}}>Masquerade Sign Up</div></a> <a href={SunnyUtils.getPath('/programming/cosplay-gatherings')} className="button-link darken"><div className="button" style={{backgroundColor: "#333"}}>Cosplay Gatherings</div></a>
 				</div>
